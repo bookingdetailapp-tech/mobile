@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Slotkaro",
+    "slug": "enqivo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "in.isteel.slotkaro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "in.isteel.slotkaro"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ],
+    "scheme": "slotkaro",
+    "extra": {
+      "webUrl": "http://192.168.1.9:3000",
+      "eas": {
+        "projectId": "cb3c109c-5925-49c3-92b1-ad6748a2644b"
+      }
+    },
+    "owner": "enqivos-team"
+  }
+}
